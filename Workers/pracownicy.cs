@@ -39,7 +39,7 @@ namespace Pracownicy
                     else
                         throw (new Exception("Hasło ma długość:", value,"Hasło pracownika musi być dłuższe niż 6 znaków."));
                 }
-            };
+            }
 
             public string department { get; set; }
 
